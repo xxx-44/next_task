@@ -1,10 +1,9 @@
 'use client';
-import { error } from 'console';
+
 import Link from 'next/link';
 import React from 'react';
 
 const ErrorPage = () => {
-	console.error(error);
 	return (
 		<div className='h-screen flex flex-col justify-center items-center bg-sky-50 text-gray-900'>
 			<h1 className='text-8xl font-bold'>ERROR</h1>
