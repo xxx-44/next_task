@@ -18,3 +18,4 @@ export const GET = async (_: NextRequest, { params }: { params: { id: string } }
 };
 
 export const dynamic = 'force-dynamic';
+export const config = { runtime: 'edge' };

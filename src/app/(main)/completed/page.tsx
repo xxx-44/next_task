@@ -30,3 +30,4 @@ const page = async () => {
 };
 
 export default page;
+export const config = { runtime: 'edge' };

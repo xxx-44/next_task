@@ -14,3 +14,4 @@ export const GET = async () => {
 };
 
 export const dynamic = 'force-dynamic';
+export const config = { runtime: 'edge' };
