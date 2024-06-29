@@ -25,3 +25,4 @@ const EditTaskPage = async ({ params }: Params) => {
 };
 
 export default EditTaskPage;
+export const runtime = 'edge';
